@@ -1,0 +1,71 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+}
+    h1 {
+        font-family: 'Lobster', cursive;
+            font-size: 60px;
+            color: #0e8013;
+            font-weight: bold;
+            text-shadow: 4px 4px rgb(36, 36, 56);
+    }
+    h1:hover {
+        animation-play-state: paused;
+    }
+    .countdown {
+        padding-bottom: 60px;
+    }
+    .countdown > .time {
+        /* animation: text-shadow 1.5s infinite; */
+            font-size: 140px; 
+            line-height: 40px;
+            font-weight: 900;
+            color: rgb(36, 36, 56);
+            margin-top: 100px;
+            display: inline-block;
+    }
+        .time > #days {
+            margin: 30px;
+        }
+        .time > #hours {
+            margin: 30px;
+        }
+        .time > #minutes {
+            margin: 30px;
+        }
+        .time > #seconds {
+            margin: 30px;
+        }
+        .time span {
+            margin-top: 80px;
+            font-size: 20px;
+        }
+    .countdown-animation {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+    }   
+        .gift {
+            width: 220px;
+        }
+        .countdown-animation > .cookie img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80px;
+            opacity: 0;
+            animation: cookie 10s infinite;
+        }
+    

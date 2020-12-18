@@ -1,0 +1,33 @@
+@keyframes text-shadow {
+    0% {  
+        transform: translateY(0);
+        text-shadow: 
+            0 0 0 #0e8013, 
+            0 0 0 #aaf8c8, 
+    }
+
+    40% {  
+        transform: translateY(-1em);
+        text-shadow: 
+            0 0.125em 0 #0e8013, 
+            0 0.25em 0 #aaf8c8, 
+            0 -0.125em 0 #fb203b, 
+            0 -0.25em 0 #d8a0a0;
+    }
+
+    100% {  
+        transform: translateY(0);
+        text-shadow: 
+            0 0 0 #0e8013, 
+            0 0 0 #aaf8c8, 
+    }
+}
+
+@keyframes logo-swing {
+    0% { transform: rotate(0deg); }
+    20% { transform: rotate(15deg); }
+    40% { transform: rotate(-10deg); }
+	60% { transform: rotate(5deg); }	
+	80% { transform: rotate(-5deg); }	
+	100% { transform: rotate(0deg); }
+}

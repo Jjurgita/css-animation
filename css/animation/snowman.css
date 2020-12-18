@@ -1,0 +1,90 @@
+/* Snowflakes */
+
+@keyframes fly-1 {
+    0% { 
+        transform: translate(20px 60px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(350px); 
+        opacity: 0;
+    }
+}
+@keyframes fly-2 {
+    0% { 
+        transform: translate(20px 60px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(350px); 
+        opacity: 0;
+    }
+}
+@keyframes fly-3 {
+    0% { 
+        transform: translate(20px 60px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(350px); 
+        opacity: 0;
+    }
+}
+@keyframes fly-4 {
+    0% { 
+        transform: translate(20px 60px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(350px); 
+        opacity: 0;
+    }
+}
+@keyframes fly-5 {
+    0% { 
+        transform: translate(20px 60px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(350px); 
+        opacity: 0;
+    }
+}
+@keyframes fly-6 {
+    0% { 
+        transform: translate(20px 60px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(350px); 
+        opacity: 0;
+    }
+}
+@keyframes fly-7 {
+    0% { 
+        transform: translate(20px 60px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(350px); 
+        opacity: 0;
+    }
+}
+@keyframes fly-8 {
+    0% { 
+        transform: translate(20px 60px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(350px); 
+        opacity: 0;
+    }
+}
+
+/* Snowman */
+
+@keyframes snowman {
+    0% { transform: scale(0.9); }
+    50% { transform: scale(1); }
+    100% { transform: scale(0.9); }
+}
