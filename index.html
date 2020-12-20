@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/animation/header.css">
     <link rel="stylesheet" href="./css/animation/snowman.css">
     <link rel="stylesheet" href="./css/animation/santa.css">
+    <link rel="stylesheet" href="./css/animation/presents.css">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 
@@ -18,12 +19,13 @@
         <h1>CSS Animation</h1>
         <h2>Christmas Edition</h2>
         <div class="link">
-            <a href="./countdown.html" target="_blank">It's time for the Christmas Countdown!</a>
+            <a href="./countdown.html" target="_blank">The Christmas Countdown!</a>
             <img src="./images/logo.png" alt="logo">
         </div>
     </div>
     <main class="container">
         <div class="first-animation">
+            <span>1 level - The Neverending Snow</span>
             <div class="snowflakes">
                 <img src="./images/snowflake.png" alt="snowflake" class="snowflakes s-1">
                 <img src="./images/snowflake.png" alt="snowflake" class="snowflakes s-2">
@@ -39,21 +41,33 @@
             </div>
         </div>
         <div class="second-animation">
-            <div class="message">
-                <p>Hello</p>
+            <span>2 level - CLICK on Santa and see a message</span>
+            <div id="message">
+                <p>merry christmas and happy new year!</p>
             </div>
-            <div class="santa">
+            <div id="santa" onclick="sendMessage()">
                 <img src="./images/santa.png" alt="santa">
             </div>
         </div>
         <div class="third-animation">
-            <!-- <div class="countdown-animation">
-                <img src="./images/gift.png" alt="gift" class="gift">
-                <div class="cookie"><img src="./images/icon1.png" alt="cookie"></div>
-            </div> -->
+            <span>3 level - Catch the Christmas presents</span>
+            <div class="score">Score:<div id="score">0</div>
+            </div>
+            <div class="gifts">
+                <img src="./images/berry.png" alt="berry" id="berry" onclick="addScore(id)">
+                <img src="./images/candy.png" alt="candy" id="candy" onclick="addScore(id)">
+                <img src="./images/icon1.png" alt="cookie" id="cookie" onclick="addScore(id)">
+                <img src="./images/tree.png" alt="tree" id="tree" onclick="addScore(id)">
+                <img src="./images/gift.png" alt="gift" id="gift" onclick="addScore(id)">
+                <img src="./images/berry1.png" alt="berry" id="berry1" onclick="addScore(id)">
+                <img src="./images/gift1.png" alt="gift" id="gift2" onclick="addScore(id)">
+                <img src="./images/star.png" alt="star" id="star" onclick="addScore(id)">
+                <img src="./images/icon.png" alt="crown" id="crown" onclick="addScore(id)">
+            </div>
         </div>
     </main>
     <script src="./scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </body>
 
 </html>

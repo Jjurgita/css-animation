@@ -68,4 +68,9 @@ body {
             opacity: 0;
             animation: cookie 10s infinite;
         }
+
+@media (max-width: 640px) {
+    .gift { width: 110px; }
+    .countdown-animation > .cookie img { width: 40px; }
+}
     

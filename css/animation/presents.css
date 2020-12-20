@@ -1,0 +1,74 @@
+.third-animation > .gifts > #berry {
+    animation: berry 15s infinite;
+}
+.third-animation > .gifts > #candy {
+    animation: candy 20s infinite;
+}
+.third-animation > .gifts > #cookie {
+    animation: cookie 10s infinite;
+}
+.third-animation > .gifts > #tree {
+    animation: tree 15s infinite;
+}
+.third-animation > .gifts > #gift {
+    animation: gift 10s infinite;
+}
+.third-animation > .gifts > #berry1 {
+    animation: berry1 20s infinite;
+}
+.third-animation > .gifts > #gift2 {
+    animation: gift2 10s infinite;
+}
+.third-animation > .gifts > #star {
+    animation: star 15s infinite;
+}
+.third-animation > .gifts > #crown {
+    animation: crown 20s infinite;
+}
+
+
+@keyframes berry {
+    0% {transform: translateY(220px);}
+    50% {transform: translateY(0);}
+    100% {transform: translateY(220px);}
+}
+@keyframes candy {
+    0% {transform: translateY(220px);}
+    50% {transform: translateY(0);}
+    100% {transform: translateY(220px);}
+}
+@keyframes cookie {
+    0% {transform: translateY(220px);}
+    50% {transform: translateY(0);}
+    100% {transform: translateY(220px);}
+}
+@keyframes tree{
+    0% {transform: translateY(220px);}
+    50% {transform: translateY(0);}
+    100% {transform: translateY(220px);}
+}
+@keyframes gift {
+    0% {transform: translateY(220px);}
+    50% {transform: translateY(0);}
+    100% {transform: translateY(220px);}
+}
+@keyframes berry1 {
+    0% {transform: translateY(220px);}
+    50% {transform: translateY(0);}
+    100% {transform: translateY(220px);}
+}
+@keyframes gift2 {
+    0% {transform: translateY(220px);}
+    50% {transform: translateY(0);}
+    100% {transform: translateY(220px);}
+}
+@keyframes star {
+    0% {transform: translateY(220px);}
+    50% {transform: translateY(0);}
+    100% {transform: translateY(220px);}
+}
+@keyframes crown {
+    0% {transform: translateY(220px);}
+    50% {transform: translateY(0);}
+    100% {transform: translateY(220px);}
+}

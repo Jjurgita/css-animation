@@ -39,3 +39,91 @@ function christmasCountdown() {
 }
 
 christmasCountdown();
+
+// Santa's message
+
+function sendMessage() {
+    document.getElementById('message').style.cssText = "opacity: 1;"
+}
+
+
+// Catch the presents
+
+function catchGift(gift) {
+
+    if (gift === 'berry') {
+        document.getElementById('berry').style.cssText = 'opacity: 0;';
+    }
+    if (gift === 'candy') {
+        document.getElementById('candy').style.cssText = 'opacity: 0;';
+    }
+    if (gift === 'cookie') {
+        document.getElementById('cookie').style.cssText = 'opacity: 0;';
+    }
+    if (gift === 'tree') {
+        document.getElementById('tree').style.cssText = 'opacity: 0;';
+    }
+    if (gift === 'gift') {
+        document.getElementById('gift').style.cssText = 'opacity: 0;';
+    }
+    if (gift === 'berry1') {
+        document.getElementById('berry1').style.cssText = 'opacity: 0;';
+    }
+    if (gift === 'gift2') {
+        document.getElementById('gift2').style.cssText = 'opacity: 0;';
+    }
+    if (gift === 'star') {
+        document.getElementById('star').style.cssText = 'opacity: 0;';
+    }
+    if (gift === 'crown') {
+        document.getElementById('crown').style.cssText = 'opacity: 0;';
+    }
+
+
+}
+
+function addScore(gift) {
+    let currentScore = parseInt(document.getElementById('score').innerHTML);
+    console.log(currentScore);
+
+
+    catchGift(gift);
+
+    let score = currentScore + 1;
+
+    document.getElementById('score').innerHTML = score;
+
+    if (score === 8) {
+        document.getElementById('berry').style.cssText = 'opacity: 1;';
+        document.getElementById('candy').style.cssText = 'opacity: 1;';
+        document.getElementById('cookie').style.cssText = 'opacity: 1;';
+        document.getElementById('tree').style.cssText = 'opacity: 1;';
+        document.getElementById('gift').style.cssText = 'opacity: 1;';
+        document.getElementById('berry1').style.cssText = 'opacity: 1;';
+        document.getElementById('gift2').style.cssText = 'opacity: 1;';
+        document.getElementById('star').style.cssText = 'opacity: 1;';
+        document.getElementById('crown').style.cssText = 'opacity: 1;';
+    }
+    if (score === 17) {
+        document.getElementById('berry').style.cssText = 'opacity: 1;';
+        document.getElementById('candy').style.cssText = 'opacity: 1;';
+        document.getElementById('cookie').style.cssText = 'opacity: 1;';
+        document.getElementById('tree').style.cssText = 'opacity: 1;';
+        document.getElementById('gift').style.cssText = 'opacity: 1;';
+        document.getElementById('berry1').style.cssText = 'opacity: 1;';
+        document.getElementById('gift2').style.cssText = 'opacity: 1;';
+        document.getElementById('star').style.cssText = 'opacity: 1;';
+        document.getElementById('crown').style.cssText = 'opacity: 1;';
+    }
+    if (score === 26) {
+        document.getElementById('berry').style.cssText = 'opacity: 1;';
+        document.getElementById('candy').style.cssText = 'opacity: 1;';
+        document.getElementById('cookie').style.cssText = 'opacity: 1;';
+        document.getElementById('tree').style.cssText = 'opacity: 1;';
+        document.getElementById('gift').style.cssText = 'opacity: 1;';
+        document.getElementById('berry1').style.cssText = 'opacity: 1;';
+        document.getElementById('gift2').style.cssText = 'opacity: 1;';
+        document.getElementById('star').style.cssText = 'opacity: 1;';
+        document.getElementById('crown').style.cssText = 'opacity: 1;';
+    }
+}

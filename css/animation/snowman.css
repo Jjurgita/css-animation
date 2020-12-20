@@ -1,5 +1,30 @@
 /* Snowflakes */
 
+.snowflakes > .s-1 {
+    animation: fly-1 2s infinite;
+}
+.snowflakes > .s-2 {
+    animation: fly-2 2.4s infinite;
+}
+.snowflakes > .s-3 {
+    animation: fly-3 2.8s infinite;
+}
+.snowflakes > .s-4 {
+    animation: fly-4 2.5s infinite;
+}
+.snowflakes > .s-5 {
+    animation: fly-5 2s infinite;
+}
+.snowflakes > .s-6 {
+    animation: fly-3 2.5s infinite;
+}
+.snowflakes > .s-7 {
+    animation: fly-4 2.8s infinite;
+}
+.snowflakes > .s-8 {
+    animation: fly-5 2.3s infinite;
+}
+
 @keyframes fly-1 {
     0% { 
         transform: translate(20px 60px);

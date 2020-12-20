@@ -1,7 +1,17 @@
 @keyframes santa {
     0% { transform: translateX(0); }
     25% { transform: translateX(150px) rotateY(360deg); }
-    50% { transform: translateX(300px); }
-    75% { transform: translateX(150px); }
+    50% { transform: translateX(0); }
+    75% { transform: translateX(-150px) rotateY(360deg); }
     100% { transform: translateX(0); }
+}
+
+@keyframes message {
+    70% { transform:translateY(0%); }
+    80% { transform:translateY(-15%); }
+    90% { transform:translateY(0%); }
+    95% { transform:translateY(-7%); }
+    97% { transform:translateY(0%); }
+    99% { transform:translateY(-3%); }
+    100% { transform:translateY(0); }
 }
