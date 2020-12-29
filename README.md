@@ -3,9 +3,9 @@
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 
 # CSS Animation
-### CSS Animation - Christmas Edition website project with Christmas countdown
+### Website project with active Christmas countdown page
 
-Welcome to my personal CSS animation world! It's just the first baby steps in this field, but the project is in progress. Take a look, site published at https://jjurgita.github.io/css-animation/
+Welcome to my personal CSS animation - Christmas Edition world! It's the first baby steps in the CSS animation and JS field. Take a look, site published at https://jjurgita.github.io/css-animation/
 
 This project is for educational porpuses only.
 

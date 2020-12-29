@@ -46,7 +46,6 @@ function sendMessage() {
     document.getElementById('message').style.cssText = "opacity: 1;"
 }
 
-
 // Catch the presents
 
 function catchGift(gift) {
@@ -79,13 +78,10 @@ function catchGift(gift) {
         document.getElementById('crown').style.cssText = 'opacity: 0;';
     }
 
-
 }
 
 function addScore(gift) {
     let currentScore = parseInt(document.getElementById('score').innerHTML);
-    console.log(currentScore);
-
 
     catchGift(gift);
 
